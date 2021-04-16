@@ -7,8 +7,11 @@ import { Component } from "@angular/core";
       <div>My First Component</div>
   </div>
   `
-  
+
 })
 export class AppComponent {
-  pageTitle: string = 'Acme Product Management'
+  // properties //
+  pageTitle: string = 'Acme Product Management';
+
+  // methods //
 }
