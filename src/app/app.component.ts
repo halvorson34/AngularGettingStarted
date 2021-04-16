@@ -10,8 +10,8 @@ import { Component } from "@angular/core";
 
 })
 export class AppComponent {
-  // properties //
+  // properties
   pageTitle: string = 'Acme Product Management';
 
-  // methods //
+  // methods
 }
