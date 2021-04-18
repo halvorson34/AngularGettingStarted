@@ -57,6 +57,10 @@ set listFilter(value: string) {
     }
 
     ngOnInit(): void {
-        console.log('cart');
+        console.log('In OnInit');
+    }
+
+    onRatingClicked(message: string): void {
+        this.pageTitle = 'Product List: ' + message;
     }
 }
